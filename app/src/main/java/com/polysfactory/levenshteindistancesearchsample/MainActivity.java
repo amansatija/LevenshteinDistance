@@ -53,7 +53,7 @@ public class MainActivity extends Activity {
 
 	private List<String> loadNames() {
 		List<String> result = new ArrayList<String>();
-		InputStream inputStream = getResources().openRawResource(R.raw.names);
+		InputStream inputStream = getResources().openRawResource(R.raw.keywords_list);
 		InputStreamReader inputStreamReader = new InputStreamReader(inputStream);
 		BufferedReader bufferedReader = new BufferedReader(inputStreamReader);
 		try {
